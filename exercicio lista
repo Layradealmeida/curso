@@ -1,0 +1,22 @@
+'''1 - Crie um programa que tenha uma lista de 5 frutas, e depois adicione uma nova fruta no final da lista. Depois remova o primeiro elemento da lista e por fim, altere o valor do item 2 pra "banana"
+2 - Crie uma lista com os dados de 4 pessoas (nome, idade, sexo, ano_nascimento).
+Dica:  Usar lista de lista'''
+
+frutas = ['banana', 'laranja', 'uva', 'pera', 'caju']
+print(frutas)
+
+frutas.append('manga')
+frutas.pop(1)
+frutas[2] = 'banana'
+
+print(frutas)
+
+
+pessoas = [
+    ['Ana', '20', 'fem', '2000'],
+    ['Joao', '23', 'mas', '1990'],
+    ['Maria', '25', 'fem', '2010'],
+    ['Bruno', '29', 'mas', '1980']
+]
+
+print(pessoas)

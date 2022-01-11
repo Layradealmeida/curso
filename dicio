@@ -1,0 +1,24 @@
+# Crie um programa para cadastrar N pessoas.
+# Adicione em uma lista e imprima npo final.
+n = int(input("Quantas pessoas deseja cadastrar: "))
+lista_pessoas = []
+for indice in range(n):
+    nome = input("Digite o nome da pessoa: ")
+    idade = int(input("Digite a idade da pessoa: "))
+    endereco = input("Digite o endereco da pessoa: ")
+    peso = float(input("Digite o peso da pessoa: "))
+    nova_pessoa = [nome, idade, endereco, peso]
+    lista_pessoas.append(nova_pessoa)
+
+
+for pessoa in lista_pessoas:
+    print(f"Bem-vin@ {pessoa[0]}. Você tem {pessoa[1]} anos, mora no endereço {pessoa[2]}. E pesa {pessoa[3]}")
+
+for pessoa in lista_pessoas:
+    if pessoa>=18:
+        print("Você é maior de idade!")
+
+    else:
+        print("Você é menor de idade!")
+
+
