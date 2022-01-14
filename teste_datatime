@@ -1,0 +1,18 @@
+"""1 - Crie um programa que receba o dia, mês e ano de nascimento de uma pessoa. 
+Use a biblioteca datatime pra verificar o dia da semana que a pessoa nasceu. """
+import datetime
+import locale
+20
+locale.setlocale(locale.LC_ALL, "pt_br")
+
+dia = int(input("dia de nascimento?"))
+mes = int(input("mês de nascimento?"))
+ano = int(input("ano de nascimento?"))
+
+data_definida= datetime.datetime(ano, mes, dia)
+
+print(data_definida.strftime("Dia de nascimento: %A "))
+
+
+
+
