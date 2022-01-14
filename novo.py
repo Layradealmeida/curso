@@ -10,4 +10,4 @@ def soma(num1, num2, num3):
 
 
 valor_soma = soma(num1, num2, num3)
-    print(f"{num1} + {num2} + {num3} == {valor_soma}")
+print(f"{num1} + {num2} + {num3} == {valor_soma}")
