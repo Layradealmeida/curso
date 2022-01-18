@@ -1,8 +1,11 @@
 def menu(op):
 
-    print("""1- Inserir 
-             2- Deletar 
-             3-Listar 
-             4-Finalizar""")
+    print("""MENU:
+             1- Inserir 
+             2- Buscar
+             3- Listar 
+             4-Deletar
+             5-Finalizar""")
     op=int(input("Digite a opção desejada:"))
-    
+
+    return op
